@@ -18,7 +18,7 @@ _1. **官方网站**：https://code.visualstudio.com/
 
 ## 2.关于下载操作的指引与配套：
 
-![下载.png](指南图片支持/下载.png)
+![下载.png](../access/下载.png)
 
 我们可以看到在这个下载页面处有着相对复杂的版本信息，这里笔者仅对win和macos进行讲解（默认读者既然能够使用Linux系统应当是不可能不会配置的，只提醒Ubuntu用户应当下载.deb以适应debian内核，使用其他发行版的应该都很熟的，不是这个文档的目标受众）
 
@@ -28,22 +28,22 @@ _1. **官方网站**：https://code.visualstudio.com/
 
 Windows：使用终端命令：打开终端输入 _systeminfo_ 查看系统类型或者打开设置如下图(这个是搬的图，大致示意，因为笔者的文档编写在同设备的Ubuntu下，懒得切过去截图了)
 
-![wincheck.png](指南图片支持/wincheck.png)
+![wincheck.png](../access/wincheck.png)
 
 MacOS：可以用终端命令 _sysctl machdep.cpu_ ,也可以如下操作：
 
 打开关于本机：
 
-![maccheckpath.png](指南图片支持/maccheckpath.png)
+![maccheckpath.png](../access/maccheckpath.png)
 
 查看处理器型号（请忽略笔者的电脑已经用了两三年了有点老，只是副机就没有换）：
 
-![macchipcheck.png](指南图片支持/macchipcheck.png)
+![macchipcheck.png](../access/macchipcheck.png)
 
 如果感兴趣可以查看这个链接->https://blog.csdn.net/2201_75344078/article/details/149824964
 或者直接对照这个表格就好了：
 
-![对照表.png](指南图片支持/对照表.png)
+![对照表.png](../access/对照表.png)
 
 是否为本电脑所有用户安装一般没啥关系都行，协议直接同意下一步就行，安装位置也没有很大关系，就是要留够空间就是了，**不要红盘装把自己的电脑干爆盘就行**。
 
@@ -51,11 +51,11 @@ MacOS：可以用终端命令 _sysctl machdep.cpu_ ,也可以如下操作：
 
 安装好以后，应该是英文的界面，点开侧边栏这个叫**扩展**的东西（这个其实也是VsCode非常好用的原因之一：大量的扩展）：
 
-![打开扩展.png](指南图片支持/打开扩展.png)
+![打开扩展.png](../access/打开扩展.png)
 
 下载中文插件（生效在我记忆里是要重启一下VsCode，一般会直接出来重启使生效的弹窗）：
 
-![中文插件.png](指南图片支持/中文插件.png)
+![中文插件.png](../access/中文插件.png)
 
 如果还是不行的话按【Ctrl(Mac用command)+shift+p】打开框以后输入configure language，点击Display language，点击中文简体或者zh-cn之类的会有弹窗让你重启VsCode就可以了
 
@@ -63,7 +63,7 @@ MacOS：可以用终端命令 _sysctl machdep.cpu_ ,也可以如下操作：
 
 对于Python：在上面的扩展里面搜索安装python就行，安装完以后可以试一下，几种系统类同：
 
-![运行py.png](指南图片支持/运行py.png)
+![运行py.png](../access/运行py.png)
 
 而对于c++使用环境的配置，可以在终端看下有没有g++，Linux和MacOS一般是终端输入g++ --version，Windows则是g++ -v，如果没有g++应该是要配一下的
 
@@ -96,11 +96,11 @@ VsCode是很自由的，有很多的功能可以使用：
 
 页面看不习惯怎么办：
 
-![主题自定义，看着舒服就可以.png](指南图片支持/主题自定义，看着舒服就可以.png)
+![主题自定义，看着舒服就可以.png](../access/主题自定义，看着舒服就可以.png)
 
 VsCode的内置git也非常强大，你可以在这里查看，这里不做细致说明，可以自行尝试了解，其他资料应该也会提到：
 
-![git使用.png](指南图片支持/git使用.png)
+![git使用.png](../access/git使用.png)
 
 ---
 

@@ -39,6 +39,19 @@
 2. Fork 本仓库并进行修改
 3. 提交 Pull Request（请遵循[PR 规范](docs/Github使用方法.md#pr规范与最佳实践)）
 
+### 📁 文件组织规范
+
+为了保持仓库结构清晰，提交 PR 时请遵循以下文件组织规范：
+
+- **文档文件（.md）**：直接放在 `docs/` 目录下，无需创建子文件夹
+  - 例如：`docs/Github使用方法.md`、`docs/VsCode使用指南.md`
+
+- **图片文件**：统一放在 `access/` 目录下
+  - 例如：`access/git使用.png`、`access/vscode-screenshot.png`
+  - 在 Markdown 文档中使用相对路径引用：`![描述](../access/图片名.png)`
+
+这样可以让文档结构更加扁平化，便于管理和查找。
+
 ## 📝 许可证
 
 本项目采用开源协议，欢迎学习和分享。
