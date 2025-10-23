@@ -1,5 +1,54 @@
 # Github使用方法
 
+## 0. 前置准备：安装 Git 环境
+
+### Windows 系统
+
+**1. 下载 Git**
+
+- 访问 Git 官网：https://git-scm.com/
+- 点击 "Install" 下载最新 Windows 版本
+
+**2. 安装步骤**
+
+- 双击下载的 `.exe` 文件
+- 选择安装路径（默认即可）
+- 选择组件（建议保持默认勾选）
+- 选择默认编辑器（可选 Vim、Notepad++、VS Code 等）
+- 选择初始分支名称（建议选择 "main"）
+- 调整 PATH 环境变量（推荐选择 "Git from the command line and also from 3rd-party software"）
+- 选择 HTTPS 传输后端（默认即可）
+- 配置行尾转换（推荐 "Checkout Windows-style, commit Unix-style line endings"）
+- 选择终端模拟器（推荐 MinTTY）
+- 其他选项保持默认，点击 "Install"
+
+**3. 验证安装**
+
+打开命令提示符（CMD）或 PowerShell，输入：
+
+```
+git --version
+```
+
+如果显示版本号，说明安装成功。
+
+### macOS 系统
+
+```
+# 使用 Homebrew 安装
+brew install git
+```
+
+### Linux 系统
+
+```
+# Ubuntu/Debian
+sudo apt-get install git
+
+# CentOS/RHEL
+sudo yum install git
+```
+
 ## 1. Git基础概念与常用命令
 
 ### 1.1 Git是什么？
