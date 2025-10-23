@@ -23,27 +23,13 @@
 
 本指南特别适合初学者，每个概念都配有详细的解释和实际操作示例。
 
-### [VsCode 使用指南](docs/VsCode使用指南.md)
-
-学习如何安装 VS Code 及配置环境。本指南涵盖：
-
-- **VS Code 用途与安装、配置方法**
-  - 什么是 VS Code
-  - 怎么下载 VS Code
-- **GitHub 常用操作**
-  - 如何用 VS Code 运行 Python 和 C++ 代码
-  - VS Code 的其他实用功能
-
-本指南适合零基础初学者快速上手 VS Code。
-
 ## 🎯 使用建议
 
 建议按照以下顺序学习：
 
 1. 首先学习 [Github 使用方法](docs/Github使用方法.md)，掌握版本控制的基础
 2. 实践操作：在本仓库中尝试提交 Issue 和 Pull Request
-3. 学习 [VsCode 使用指南](docs/VsCode使用指南.md)，掌握 VS Code 的使用方法
-4. 将所学技能应用到实际科研项目中
+3. 将所学技能应用到实际科研项目中
 
 ## 🤝 贡献指南
 
