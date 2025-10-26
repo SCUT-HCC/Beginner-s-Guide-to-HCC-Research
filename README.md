@@ -51,7 +51,7 @@
 
 1. 提交 Issue 描述问题或建议
 2. Fork 本仓库并进行修改
-3. 提交 Pull Request（请遵循[PR 规范](docs/Github使用方法.md#pr规范与最佳实践)）
+3. 提交 Pull Request（请遵循 [PR 规范](docs/Github使用方法.md#pr规范与最佳实践)）
 
 ### 📁 文件组织规范
 
@@ -68,7 +68,7 @@
 
 ## 📝 许可证
 
-本项目采用 [MIT开源协议](docs/MIT%20开源协议.md) ，欢迎学习和分享。
+本项目采用 [MIT 开源协议](docs/MIT%20开源协议.md) ，欢迎学习和分享。
 
 ## 📮 联系方式
 
